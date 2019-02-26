@@ -51,18 +51,61 @@ body {
 .header__form {
     display: flex;
     align-items: center;
-}
-.browse {
-    height: 38px;
-    display: block;
-    border-radius: 3px 0 0 3px;
+	margin-left: 37px;
+	border-radius: 3px 0 0 3px;
     border: 1px solid #e6e6e6;
+}
+.header__form__browse {
+    height: 38px;
+	line-height: 38px;
+    display: block;
+	padding-left: 15px;
+	padding-right: 9px;
     background-color: #cdcdcc;
     background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
     color: #222222;
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 0.35px;
+	border-right: 1px solid #e6e6e6;
+}
+.header__form__d{
+	margin-left: 8px;
+	margin-bottom: 2px;
+}
+.header__form__input {
+	height: 36px;
+	width: 280px;
+	padding-left: 16px;
+	background-color: #ffffff;
+	border: 0;
+}
+.header__form__input:focus {
+	outline: 0;
+}
+.header__form__loupe {
+	display: flex;
+    justify-content: center;
+	height: 38px;
+	width: 38px;	
+	background-color: #ffffff;
+	border: 0;
+	border-left: 1px solid #e6e6e6;
+}
+.header__form__loupe:active {
+	border: 1px solid #e6e6e6;	
+}
+.header__form__loupe:focus {
+	outline: 0;
+}
+.cart {
+	margin-right: 26px;
+}
+.cart2{
+	float: left;
+	margin-top: 8px;
+	margin-left: 8px;
+	margin-right: 12px;
 }
 .button {
     height: 38px;
@@ -75,6 +118,18 @@ body {
     font-size: 15px;
     font-weight: 400;
     letter-spacing: 0.38px;
+}
+.button2{
+	height: 38px;
+	line-height: 38px;
+	display: inline-block;
+	padding-right: 14px;
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: 700;
+	outline: 1px solid #ffffff;
+	margin-top: 98px;
+	z-index: 2;
 }
 .menu {
     display: flex;
@@ -122,4 +177,133 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     line-height: 31px;
+}
+.offers__container {
+	margin-top: 78px;
+	height: 845px;
+	display: flex;
+	flex-flow: column wrap;
+}
+.offers__item  {
+	width: 560px;
+	background-color: #dadad2;
+	background-repeat: no-repeat;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.item1 {
+	height: 542px;
+	background-image: url("../img/Layer_30.jpg");
+}
+.item2 {
+	height: 261px;
+	background-image: url("../img/Layer_37.jpg");
+	background-position: top right;
+}
+.item3 {
+	height: 261px;
+	background-image: url("../img/Layer_32.jpg");
+}
+.item4 {
+	height: 542px;
+	background-image: url("../img/Layer_31.jpg");
+}
+.offers__text {
+	margin-top: 26px;
+	display: inline-block;
+	background-color: #ffffff;
+	padding: 16px 20px 16px 20px;
+}
+.offers__h3 {
+	color: #222222;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.45px;
+}
+.offers__p {
+	margin-top: 5px;
+	color: #f16d7f;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.75px;
+}
+.featured__container {
+	text-align: center;
+}
+.featured__h2 {	
+	color: #222222;
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 0.75px;
+	margin-top: 100px;
+	margin-bottom: 16px;
+}
+.featured__p {	
+	color: #9f9f9f;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.35px;	
+}
+.items_list {
+	margin-top: 23px;
+}
+.items_list__list {
+	list-style-type: none;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.items_list__h1 {
+	color: #222222;
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-left: 14px;
+}
+.items_list__h1__red {
+	color: #f16d7f;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 17px;
+	margin-left: 14px;
+	margin-bottom: 21px;
+}
+.items_list__item {
+	position: relative;
+	margin-top: 40px;
+}
+.items_list__item:hover {
+	box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+	background-color: #ffffff;
+}
+.browse_all {
+	height: 220px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+.items_list__cover {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	top: 0;
+	width: 100%;
+	height: 100%;	
+	background-image: url("../img/Background.png");
+	background-position: top;
+	background-repeat: no-repeat;
+	opacity: 0;
+}
+.items_list__cover:hover {
+	opacity: 1;
+}
+.full_link {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
 }
