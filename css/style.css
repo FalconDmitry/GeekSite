@@ -97,7 +97,8 @@ body {
 }
 .header__form__loupe:hover {
 	border: 1px solid #e6e6e6;
-	border-left: 2px solid #e6e6e6;	
+	border-left: 2px solid #e6e6e6;
+	cursor: pointer;
 }
 .header__form__loupe:active {
 	margin-left: 1px;
@@ -140,7 +141,7 @@ body {
 	z-index: 2;
 }
 .button:hover, .button2:hover {
-    outline: 2px solid #e6e6e6;
+	box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
 }
 .menu {
     display: flex;
@@ -414,6 +415,212 @@ body {
 	font-size: 32px;
 	letter-spacing: 0.9px;
 	margin-left: 39px;
+}
+.subscriber {
+	position: relative;
+	background-image: url("../img/Layer_41.jpg");
+	width: 1609px;
+	height: 438px;
+	margin-top: 97px;
+	margin-bottom: 110px;
+}
+.subscriber_left {
+	width: 50%;
+	height: 100%;
+	float: left;
+	position:relative;
+}
+.subscriber__separator {
+	float: right;
+}
+.subscriber__portrait {
+	position: absolute;
+	top: 111px;
+	left: 231px;
+}
+.subscriber__quote {
+	position: absolute;
+	top: 123px;
+	left: 342px;
+	width: 386px;
+	text-align: justify;
+	color: #222224;
+	font-size: 16px;
+	font-style: italic;
+	line-height: 26px;
+	letter-spacing: 0.4px;
+}
+.subscriber__sig {
+	position: absolute;
+	top: 210px;
+	left: 344px;
+	color: #f16d7f;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 0.4px;
+}
+.subscriber__sig2 {
+	color: #222224;
+	font-size: 12px;
+	font-weight: 300;
+	letter-spacing: 0.3px;
+}
+.subscriber_line1 {
+	position: absolute;
+	top: 278px;
+	left: 345px;
+}
+.subscriber_line2 {
+	position: absolute;
+	top: 278px;
+	left: 396px;
+}
+.subscriber_line3 {
+	position: absolute;
+	top: 278px;
+	left: 447px;
+}
+.subscriber_right {
+	width: 50%;
+	height: 100%;
+	float: right;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+.subscriber_h1 {
+	margin-top: 148px;
+	color: #222224;
+	font-size: 24px;
+	font-weight: 400;
+	letter-spacing: 0.6px;
+	text-transform: uppercase;
+}
+.subscriber_h2 {
+	color: #222224;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 0.35px;
+	text-transform: uppercase;
+}
+.subscriber___form {
+	margin-top: 35px;
+}
+.subscriber___form__input {
+	background-color: #e1e1e1;
+	border-radius: 23px 0 0 23px;
+	border: 0;
+	padding: 18px 28px 18px 28px;
+	color: #222224;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.35px;
+}
+.subscriber___form___subscribe {
+	background-color: #f16d7f;
+	border-radius: 0 23px 23px 0;
+	border: 0;
+	padding: 18px 20px 18px 20px;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.35px;
+}
+.subscriber___form___subscribe:hover {
+	cursor: pointer;
+	box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+}
+.brand_menu {
+	position:relative;
+}
+.brand_left {
+	width: 50%;
+	height: 100%;
+	float: left;
+	position:relative;
+	margin-bottom: 90px;
+}
+.brand_right {
+	width: 50%;
+	height: 100%;
+	float: left;
+	position:relative;
+}
+.brand_p {
+	color: #898989;
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: 0.35px;
+	text-align: justify;
+	margin-top: 41px;
+	width: 427px;
+}
+.brand_right table tr th {
+	color: #f16d7f;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 26px;
+	text-transform: uppercase;
+	letter-spacing: 0.45px;
+	width: 250px;
+	text-align: left;
+	padding-bottom: 45px;
+}
+
+.brand_right table tr {
+	color: #898989;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 0.4px;
+	line-height: 42px;
+}
+
+.brand_right table tr a {
+	color: #898989;
+}
+.brand_right table tr a:hover {
+	color: #f16d7f;
+}
+.footer{
+	background-color: #e6e6e6;
+	clear: both;
+
+}
+.footer__copyright {
+	position: relative;
+	color: #7a7a7a;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 0.4px;
+	display: inline-block;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+.footer__network {
+	float: right;
+	margin-top: 24px;
+	background-color: #ffffff;
+	height: 32px;
+	width: 32px;
+	margin-left: 8px;
+	position: relative;
+}
+.footer__network:hover {
+	background-color: #f16d7f;
+}
+.footer__link {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.footer_pic{
+	position: absolute;
+	margin: auto;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
 }
 
 	
